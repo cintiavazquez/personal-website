@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 1.8rem;
+  background-color: ;
+}
+
+.links_pics {
+  padding: 20px;
+  background-color: ;
+  border: 2px solid;
+}
+
+.nav_bio{
+  text-decoration: none;
+  color: #705C49;
+  font-size: 2.9rem;
+}
+.nav_bio:hover{
+  font-size: 3rem;
+}
+
+.nav_contact{
+  text-decoration: none;
+  color: #705C49;
+  font-size: 2.9rem;
+}
+.nav_contact:hover{
+  font-size: 3rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(#9B7E64, white);
+  color: white;
+  position: ;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: space-evenly;
+  max-width: 400px;
+  background-color: ;
+  column-gap: 100px;
+  row-gap: 20px;
+  padding: 30px;
+  min-height: 40vh;
+}
+
+.contact-bio{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+.interests {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color:
+  min-height: 100px;
+}
+
+.--interests {
+  padding: 10px;
+}
+
+.portraitpic {
+  border-radius: 100px;
+}
+
+.links_main_section{
+  padding: 20px;
+}
+
+#Contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 0px 20px 20px;
+  color: #705C49;
+  z-index: 3;
+}
+
+.aside {
+  font-size: 1.5rem;
+  text-align: center;
+  height: 10vmin;
+  width: 10vmin;
+ /* background-color: green;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: sticky;
+  top: 0;
+  left: 85%;
+}
+
+.mailvector{
+  height: 10vmin;
+  width: 10vmin;
+  
+}
+.mailbutton{
+  all: unset;
+  cursor: pointer;
+  fill: #705C49;
+}
+
+.mailvector:hover{
+  fill: #495D70;
+  height: 15vmin;
+  width: 15vmin;
+}
+
+
+.social_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 20px;
+  background-color: ;
+  padding: 10px;
+}
+
+.card-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 16px;
+  position: static;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+  background: white;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  font-family: Roboto;
+}
+
+.titlecard {
+  font-weight: 700;
+  font-size: 16px;
+}
+.subtitlecard {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.accountcard {
+  font-weight: 300;
+  font-size: 12px;
+}
+.imagecard {
+  border-radius: 8px;
+}
+
+.headlines{
+  color: #705C49;
+}
+
+#Bio {
+  padding: 20px;
+}
+
+.biography{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:  ;
+  padding: 20px;
+  
+}
+
+.biotext {
+  width: 50%;
+  padding-top: 2.5rem;
+  padding-right: 4rem;
+}
+.cv{
+  width: 50%;
+}
+
+.list{
+  list-style: none;
+}
