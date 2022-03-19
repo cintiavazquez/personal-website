@@ -15,9 +15,14 @@ html {
   padding: 0;
   font-family: Roboto;
   font-size: 1.8rem;
-  background-color: ;
+  position: relative;/*to make the abs pos footer stick to the bodys bottom not the viewports bottom*/
 }
 
+.name {
+  font-size: 7rem;
+  padding: 5%;
+  color: #705C49;
+}
 .links_pics {
   padding: 20px;
   background-color: ;
@@ -49,7 +54,8 @@ html {
   align-items: center;
   background-image: linear-gradient(#9B7E64, white);
   color: white;
-  position: ;
+  min-height: 50vmin;
+  margin-bottom: 10%;
 }
 
 .nav-right {
@@ -87,6 +93,9 @@ justify-content: space-around;
 
 .portraitpic {
   border-radius: 100px;
+  height: 20vmin;
+  width: 20vmin;
+  
 }
 
 .links_main_section{
@@ -99,7 +108,7 @@ justify-content: space-around;
   align-items: center;
   padding: 0px 0px 20px 20px;
   color: #705C49;
-  z-index: 3;
+  margin-bottom: 20%;
 }
 
 .aside {
@@ -140,8 +149,8 @@ justify-content: space-around;
   flex-direction: row;
   justify-content: space-around;
   column-gap: 20px;
-  background-color: ;
-  padding: 10px;
+  padding: 20px;
+  margin-bottom: 20%;
 }
 
 .card-desktop {
@@ -163,6 +172,7 @@ justify-content: space-around;
 .titlecard {
   font-weight: 700;
   font-size: 16px;
+  padding-bottom: 5px;
 }
 .subtitlecard {
   font-weight: 400;
@@ -175,14 +185,27 @@ justify-content: space-around;
 }
 .imagecard {
   border-radius: 8px;
+  height: 15vmin;
+  width: 15vmin;
+  margin-bottom: 5px;
+  
+}
+
+.arrow {
+  color: #495D70;
 }
 
 .headlines{
   color: #705C49;
+  text-align: center;
+  margin-bottom: 5%;
 }
 
 #Bio {
-  padding: 20px;
+  padding: 5px;
+  margin-bottom: 30%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .biography{
@@ -195,13 +218,34 @@ justify-content: space-around;
 
 .biotext {
   width: 50%;
-  padding-top: 2.5rem;
   padding-right: 4rem;
 }
 .cv{
   width: 50%;
 }
+.cv_heading{
+  padding-bottom: 10px;
+
+}
 
 .list{
   list-style: none;
+}
+
+.footer{
+position: relative;
+z-index: 2;
+padding: 30px;
+}
+
+.impressum{
+  text-decoration: none;
+  color: #495D70;
+}
+.wave{
+  background-image: linear-gradient(#9B7E64, white);
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  
 }
