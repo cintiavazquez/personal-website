@@ -38,6 +38,7 @@ html {
   color: #705c49;
   font-size: 3.2rem;
 }
+
 .nav_bio:hover {
   font-size: 3.3rem;
 }
@@ -51,6 +52,14 @@ html {
   font-size: 3.3rem;
 }
 
+@media (max-width: 550px) {
+  .nav_bio {
+    font-size: 2.5rem;
+  }
+  .nav_contact {
+    font-size: 2.5rem;
+  }
+}
 .navigation {
   display: flex;
   flex-direction: row;
@@ -82,6 +91,14 @@ html {
   flex-direction: row;
   justify-content: space-around;
   font-weight: bold;
+}
+@media (max-width: 550px) {
+  .contact-bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+  }
 }
 
 .interests {
