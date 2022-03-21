@@ -17,7 +17,7 @@ html {
   padding: 0;
   font-family: Roboto;
   font-size: 2rem;
-  position: relative;/*to make the abs pos footer stick to the bodys bottom not the viewports bottom*/
+  position: relative; /*to make the abs pos footer stick to the bodys bottom not the viewports bottom*/
   max-width: 1440px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
 }
@@ -25,7 +25,7 @@ html {
 .name {
   font-size: 7rem;
   padding: 5%;
-  color: #705C49;
+  color: #705c49;
 }
 .links_pics {
   padding: 20px;
@@ -33,21 +33,21 @@ html {
   border: 2px solid;
 }
 
-.nav_bio{
+.nav_bio {
   text-decoration: none;
-  color: #705C49;
+  color: #705c49;
   font-size: 3.2rem;
 }
-.nav_bio:hover{
+.nav_bio:hover {
   font-size: 3.3rem;
 }
 
-.nav_contact{
+.nav_contact {
   text-decoration: none;
-  color: #705C49;
+  color: #705c49;
   font-size: 3.2rem;
 }
-.nav_contact:hover{
+.nav_contact:hover {
   font-size: 3.3rem;
 }
 
@@ -57,9 +57,9 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(#9B7E64, white);
+  background-image: linear-gradient(#9b7e64, white);
   color: white;
-  min-height: 30vmin;
+  min-height: 40vmin;
   margin-bottom: 5%;
   border-radius: 20px 20px 0 0;
 }
@@ -70,34 +70,33 @@ html {
   flex-wrap: wrap;
   align-items: space-evenly;
   max-width: 400px;
-  background-color:;
+  background-color: ;
   column-gap: 100px;
   row-gap: 20px;
   padding: 30px;
   min-height: 30vh;
 }
 
-.contact-bio{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-font-weight: bold;
+.contact-bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: bold;
 }
-
 
 .interests {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color:
+  gap: 10px;
   min-height: 100px;
 }
 
 .--interests {
   padding: 12px;
   border-radius: 10%;
-  background-color:;
+  background-color: ;
   box-shadow: 2px 2px 5px #7a6f55;
 }
 
@@ -105,20 +104,19 @@ font-weight: bold;
   border-radius: 100px;
   height: 30vmin;
   width: 30vmin;
-  
 }
 
-.links_main_section{
+.links_main_section {
   padding: 20px;
 }
 
-#Contact{
+#Contact {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   padding: 0px 0px 20px 20px;
-  color: #705C49;
+  color: #705c49;
   margin-bottom: 10%;
 }
 
@@ -127,7 +125,7 @@ font-weight: bold;
   text-align: center;
   height: 10vmin;
   width: 10vmin;
- /* background-color: green;*/
+  /* background-color: green;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -137,23 +135,21 @@ font-weight: bold;
   left: 85%;
 }
 
-.mailvector{
+.mailvector {
   height: 10vmin;
   width: 10vmin;
-  
 }
-.mailbutton{
+.mailbutton {
   all: unset;
   cursor: pointer;
-  fill: #705C49;
+  fill: #705c49;
 }
 
-.mailvector:hover{
-  fill: #495D70;
+.mailvector:hover {
+  fill: #495d70;
   height: 15vmin;
   width: 15vmin;
 }
-
 
 .social_links {
   display: flex;
@@ -200,14 +196,13 @@ font-weight: bold;
   height: 15vmin;
   width: 15vmin;
   margin-bottom: 5px;
-  
 }
 
 .arrow {
-  color: #495D70;
+  color: #495d70;
 }
-@media (max-width: 550px){
-  .card-desktop{
+@media (max-width: 550px) {
+  .card-desktop {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,8 +220,8 @@ font-weight: bold;
   }
 }
 
-.headlines{
-  color: #705C49;
+.headlines {
+  color: #705c49;
   text-align: center;
   margin-bottom: 5%;
 }
@@ -254,42 +249,41 @@ font-weight: bold;
 }
 
 @media (max-width: 550px) {
-  .bio_container{
+  .bio_container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
-    text-align:center;
+    text-align: center;
     padding: 2px;
   }
   .bio_text {
     padding: 2px;
     width: 100%;
   }
-  .bio_cv{
+  .bio_cv {
     padding: 2px;
     width: 100%;
   }
 }
 
-.list{
+.list {
   list-style: none;
 }
 
-.footer{
-position: relative;
-z-index: 2;
-padding: 30px;
+.footer {
+  position: relative;
+  z-index: 2;
+  padding: 30px;
 }
 
-.impressum{
+.impressum {
   text-decoration: none;
-  color: #495D70;
+  color: #495d70;
 }
-.wave{
-  background-image: linear-gradient(#9B7E64, white);
+.wave {
+  background-image: linear-gradient(#9b7e64, white);
   position: absolute;
   bottom: 0;
   z-index: 1;
-  
 }
