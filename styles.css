@@ -36,19 +36,19 @@ html {
 .nav_bio{
   text-decoration: none;
   color: #705C49;
-  font-size: 2.9rem;
+  font-size: 3.2rem;
 }
 .nav_bio:hover{
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 
 .nav_contact{
   text-decoration: none;
   color: #705C49;
-  font-size: 2.9rem;
+  font-size: 3.2rem;
 }
 .nav_contact:hover{
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 
 .navigation {
@@ -59,8 +59,8 @@ html {
   align-items: center;
   background-image: linear-gradient(#9B7E64, white);
   color: white;
-  min-height: 50vmin;
-  margin-bottom: 10%;
+  min-height: 30vmin;
+  margin-bottom: 5%;
   border-radius: 20px 20px 0 0;
 }
 
@@ -70,17 +70,18 @@ html {
   flex-wrap: wrap;
   align-items: space-evenly;
   max-width: 400px;
-  background-color: ;
+  background-color:;
   column-gap: 100px;
   row-gap: 20px;
   padding: 30px;
-  min-height: 40vh;
+  min-height: 30vh;
 }
 
 .contact-bio{
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+font-weight: bold;
 }
 
 
@@ -94,7 +95,10 @@ justify-content: space-around;
 }
 
 .--interests {
-  padding: 10px;
+  padding: 12px;
+  border-radius: 10%;
+  background-color:;
+  box-shadow: 2px 2px 5px #7a6f55;
 }
 
 .portraitpic {
@@ -115,7 +119,7 @@ justify-content: space-around;
   align-items: center;
   padding: 0px 0px 20px 20px;
   color: #705C49;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .aside {
@@ -156,9 +160,9 @@ justify-content: space-around;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  column-gap: 20px;
+  column-gap: 10px;
   padding: 20px;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .card-desktop {
@@ -168,7 +172,7 @@ justify-content: space-around;
   justify-content: center;
   padding: 16px;
   position: static;
-  width: 350px;
+  min-width: 320px;
   left: 0px;
   top: 0px;
   background: white;
@@ -202,6 +206,24 @@ justify-content: space-around;
 .arrow {
   color: #495D70;
 }
+@media (max-width: 550px){
+  .card-desktop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 16px;
+    position: static;
+    min-width: 200px;
+    max-width: 300px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    font-family: Roboto;
+  }
+}
 
 .headlines{
   color: #705C49;
@@ -209,32 +231,45 @@ justify-content: space-around;
   margin-bottom: 5%;
 }
 
-#Bio {
+.bio {
   padding: 5px;
-  margin-bottom: 30%;
+  margin-bottom: 20%;
   margin-right: 10%;
   margin-left: 10%;
 }
 
-.biography{
+.bio_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: ;
   padding: 20px;
-  
 }
 
-.biotext {
+.bio_text {
   width: 50%;
   padding-right: 4rem;
 }
-.cv{
+.bio_cv {
   width: 50%;
 }
-.cv_heading{
-  padding-bottom: 10px;
 
+@media (max-width: 550px) {
+  .bio_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align:center;
+    padding: 2px;
+  }
+  .bio_text {
+    padding: 2px;
+    width: 100%;
+  }
+  .bio_cv{
+    padding: 2px;
+    width: 100%;
+  }
 }
 
 .list{
