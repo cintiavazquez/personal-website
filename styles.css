@@ -54,12 +54,14 @@ html {
 .navigation {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   background-image: linear-gradient(#9B7E64, white);
   color: white;
   min-height: 50vmin;
   margin-bottom: 10%;
+  border-radius: 20px 20px 0 0;
 }
 
 .nav-right {
@@ -109,6 +111,7 @@ justify-content: space-around;
 #Contact{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   padding: 0px 0px 20px 20px;
   color: #705C49;
@@ -152,6 +155,7 @@ justify-content: space-around;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
   column-gap: 20px;
   padding: 20px;
   margin-bottom: 20%;
@@ -164,7 +168,7 @@ justify-content: space-around;
   justify-content: center;
   padding: 16px;
   position: static;
-  width: 400px;
+  width: 350px;
   left: 0px;
   top: 0px;
   background: white;
@@ -214,8 +218,9 @@ justify-content: space-around;
 
 .biography{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color:  ;
+  background-color: ;
   padding: 20px;
   
 }
