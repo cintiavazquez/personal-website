@@ -57,3 +57,14 @@
       border-radius: 16px;
       font-family: Roboto;
     }
+
+    @media (min-width: 900px) and (max-width: 1300px) {
+      .card{
+        justify-content: center;
+        gap: 2px;
+        padding: 16px;
+        position: static;
+        min-width: 200px;
+        max-width: 300px;
+      }
+    }

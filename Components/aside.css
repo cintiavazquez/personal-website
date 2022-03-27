@@ -20,11 +20,10 @@
 .mailbutton {
   all: unset;
   cursor: pointer;
-  fill: #705c49;
+  fill: var(--medium-dark-color);
 }
 
 .mailvector:hover {
-  fill: #495d70;
-  height: 15vmin;
-  width: 15vmin;
+  fill: var(--darkest-color);
+  transform: scale(1.2);
 }
